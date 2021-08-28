@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>ChocoCupcake</title>
+    <link rel="icon" type="favicon/x-icon"
+        href="C:\Users\eberr\Downloads\Curso de programacion\practicas\master-css\aprendiendo-css\selectores\Responsive Web Design\maquetacion-2\recursos-maquetacion-2-master-css-victor-robles\recursos-maquetacion-2-master-css-victor-robles\img\icono.png" />
+    <link rel="stylesheet" type="text/css" href="styles2.css" />
+    <link rel="stylesheet" type="text/css" href="responsive.css" />
+    <script src="https://kit.fontawesome.com/53bd01a3d2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!---Inicio de Cabecera-->
+    <header id="header">
+        <div class="wrap">
+            <div id="logo">
+                <span class="gear"><img id="header-img"
+                        src="C:\Users\eberr\Downloads\Curso de programacion\practicas\master-css\aprendiendo-css\selectores\Responsive Web Design\maquetacion-2\recursos-maquetacion-2-master-css-victor-robles\recursos-maquetacion-2-master-css-victor-robles\img\galleta.png"
+                        alt="original logo"> </span>
+
+                <h3>CHOCOCUPCAKE</h3>
+            </div>
+
+            <!---Menu-->
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#">PRODUCTOS</a></li>
+                    <li><a href="#">INFORMACION</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!---Fin de la cabecera-->
+
+    <!---Inicio Banner-->
+    <section class="wrap">
+        <section id="info">
+
+            <div id="banner">
+                <h1>LOS MEJORES CUPCAKES LLEGARON A TU CIUDAD</h1>
+            </div>
+            <!---Fin Banner-->
+
+            <!---Inicio tarjetas--->
+            <div id="cards">
+                <div class="tarjeta">
+                    <p class="icon"><img class="icon"
+                            src="https://imagenesdepasteles.com/wp-content/uploads/2019/06/Cupcakes-de-unicornio-5.jpg"
+                            alt="cupcake de chispas" width="100" height="100"></p>
+                    <h2 class="category">Chocochispas</h2>
+                    <p class="description"><br /> Tiene tarta de chocolate como base y un glaseado de nata recién
+                        montada.
+                        La cobertura Rainbow simplemente aumenta su belleza.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <p class="icon">
+                    <p class="icon"><img class="icon"
+                            src="https://handletheheat.com/wp-content/uploads/2016/02/best-chocolate-cupcakes-recipe-SQUARE.jpg"
+                            alt="cupcake de chocolate" width="100" height="100"></p>
+                    <h2 class="category">Sabroso Chocolatoso</h2>
+                    <p class="description"><br /> Sorprenda a ese amante del chocolate con este sabroso lote de 4
+                        cupcakes
+                        de trufa de chocolate y hágales sonreír de oreja a oreja.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <p class="icon"><img class="icon"
+                            src="https://hattiecakesandsweets.com/wp-content/uploads/2013/06/crcc1.jpg"
+                            alt="cupcake de Caramelo" width="100" height="100"></p>
+                    <h2 class="category">Caramelo vero</h2>
+                    <p class="description"><br /> Recubiertos de caramelo es una prueba de ello. Envíale esto a alguien
+                        que
+                        amas y haz que tu relación sea más dulce.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <p class="icon"><img class="icon"
+                            src="https://blog.novasafra.com.br/wp-content/uploads/2019/06/cupcake.png"
+                            alt="cupcake de Red Velvet" width="100" height="100"></p>
+                    <h2 class="category">Red Velvet Cupcake</h2>
+                    <p class="description"><br /> De color rojo aterciopelado. Envíelos a sus amigos y familiares para
+                        darle
+                        un aire de celebración adicional a su día especial.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <p class="icon"><img class="icon"
+                            src="https://i.pinimg.com/originals/d3/fd/ec/d3fdec353526c602744c0a61084c5b81.jpg"
+                            alt="cupcake de Pikachu" width="100" height="100"></p>
+                    <h2 class="category">Pika pika Pikachu Cupcake</h2>
+                    <p class="description"><br /> A la hora de elegir, tiene que ser Pikachu. Haz que alguien baile de
+                        felicidad. ¡Te van a amar por esto!</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!---Fin de tarjetas-->
+
+        <!--Aside Inicio barra lateral-->
+        <div class="clearfix"></div>
+        <aside id="lateral">
+            <h3>BUSCAR</h3>
+            <div id="search">
+                <form>
+
+                    <input type="text" placeholder="Buscar..." />
+                    <button class="boton1" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+
+
+                </form>
+            </div>
+
+            <h3>LOG IN</h3>
+            <div id="login" class="aside-box">
+                <form>
+
+                    <i id="logo1" class="fas fa-user"></i>
+                    <input type="email" placeholder="Escribe tu email" />
+
+                    <i id="logo2" class="fas fa-lock"></i>
+
+                    <input type="password" placeholder="Escribe tu contraseña" />
+
+                    <input type="submit" value="Entrar" />
+                    <input type="reset" value="Limpiar" />
+
+                    <a href="#">Registrate aquí</a>
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+            </form>
+            <h3>REDES SOCIALES</h3>
+            <div id="social" class="aside-box">
+                <div class="twitter">
+                    <a href="#"><img
+                            src="recursos-maquetacion-2-master-css-victor-robles/recursos-maquetacion-2-master-css-victor-robles/img/twitter.png"></a>
+                    <p class="overlay">Twitter</p>
+                </div>
+
+                <div class="youtube">
+                    <a href="#"><img
+                            src="recursos-maquetacion-2-master-css-victor-robles/recursos-maquetacion-2-master-css-victor-robles/img/youtube.png"></a>
+                    <p class="overlay">Youtube</p>
+                </div>
+
+                <div class="facebook">
+                    <a href="#"><img
+                            src="recursos-maquetacion-2-master-css-victor-robles/recursos-maquetacion-2-master-css-victor-robles/img/Facebook.png"></a>
+                    <p class="overlay">Facebook</p>
+                </div>
+            </div>
+            <h3>PATROCINADORES</h3>
+            <div id="sponsors">
+
+            </div>
+        </aside>
+
+        </aside>
+        <!--Fin de la barra lateral-->
+
+        <!--Inicio articulos-->
+        <section id="articles">
+            <h2>Últimos artículos</h2>
+            <div class="clearfix"></div>
+            <article>
+                <div class="data">
+                    <span> Fecha: 27 de Agosto</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Título del artículo</a>
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus mauris non ullamcorper
+                    facilisis. Fusce rutrum tincidunt tortor eu malesuada. Cras ac finibus metus. Ut a faucibus velit.
+                    Phasellus porttitor erat vitae tellus efficitur, vitae venenatis purus volutpat. Vivamus maximus
+                    felis metus, eget vulputate nisl rhoncus eget. Nulla ac enim in dolor commodo aliquam vel eget sem.
+                </p>
+
+            </article>
+
+            <article>
+                <div class="data">
+                    <span>Fecha: 24 de Agosto</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Título del artículo</a>
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus mauris non ullamcorper
+                    facilisis. Fusce rutrum tincidunt tortor eu malesuada. Cras ac finibus metus. Ut a faucibus velit.
+                    Phasellus porttitor erat vitae tellus efficitur, vitae venenatis purus volutpat. Vivamus maximus
+                    felis metus, eget vulputate nisl rhoncus eget. Nulla ac enim in dolor commodo aliquam vel eget sem.
+                </p>
+
+            </article>
+
+            <article>
+                <div class="data">
+                    <span>Fecha: 24 de Agosto</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Título del artículo</a>
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus mauris non ullamcorper
+                    facilisis. Fusce rutrum tincidunt tortor eu malesuada. Cras ac finibus metus. Ut a faucibus velit.
+                    Phasellus porttitor erat vitae tellus efficitur, vitae venenatis purus volutpat. Vivamus maximus
+                    felis metus, eget vulputate nisl rhoncus eget. Nulla ac enim in dolor commodo aliquam vel eget sem.
+                </p>
+
+            </article>
+
+            <article>
+                <div class="data">
+                    <span>Fecha: 24 de Agosto</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Título del artículo</a>
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus mauris non ullamcorper
+                    facilisis. Fusce rutrum tincidunt tortor eu malesuada. Cras ac finibus metus. Ut a faucibus velit.
+                    Phasellus porttitor erat vitae tellus efficitur, vitae venenatis purus volutpat. Vivamus maximus
+                    felis metus, eget vulputate nisl rhoncus eget. Nulla ac enim in dolor commodo aliquam vel eget sem.
+                </p>
+
+            </article>
+
+            <article>
+                <div class="data">
+                    <span>Fecha: 24 de Agosto</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Título del artículo</a>
+                </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rhoncus mauris non ullamcorper
+                    facilisis. Fusce rutrum tincidunt tortor eu malesuada. Cras ac finibus metus. Ut a faucibus velit.
+                    Phasellus porttitor erat vitae tellus efficitur, vitae venenatis purus volutpat. Vivamus maximus
+                    felis metus, eget vulputate nisl rhoncus eget. Nulla ac enim in dolor commodo aliquam vel eget sem.
+                </p>
+
+            </article>
+            <article id="blog">
+                <a href="#">Ir al blog</a>
+            </article>
+        </section>
+        <!--Fin articulos-->
+    </section>
+    <!--INICIO DEL PIE DE PAGINA-->
+    <div class="clearfix"></div>
+
+    <footer id="footer">
+        <div class="wrap">
+
+            <div id="menu_footer">
+                <h5>Menú</h5>
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#">PRODUCTOS</a></li>
+                    <li><a href="#">INFORMACIÓN</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </div>
+
+            <div id="location">
+                <h5>¿Dónde Estamos? </h5>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.5241281956933!2d-149.55579827454716!3d-17.53021545453521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x769a39ec22474727%3A0xc1708495cb55cee4!2sLe%20Dolce%20Tahiti!5e0!3m2!1ses-419!2sbr!4v1629828387717!5m2!1ses-419!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div id="info">
+                <h5 class="titulo"> Desarrollado con</h5>
+                <p>
+                    <i class="fab fa-html5"></i> Creado con HTML y CSS <i class="fab fa-css3-alt"></i>
+                </p>
+                <h5 class="titulo">Optimizado para</h5>
+                <p id="browsers">
+                    <a href="#">
+                        <img src="recursos-maquetacion-2-master-css-victor-robles/recursos-maquetacion-2-master-css-victor-robles/img/firefox-icon.png"
+                            alt="Firefox" title="Firefox" />
+                    </a>
+                    <a href="#">
+                        <img src="recursos-maquetacion-2-master-css-victor-robles/recursos-maquetacion-2-master-css-victor-robles/img/chrome.png"
+                            alt="Chrome" title="Chrome" />
+                    </a>
+
+                    <a href="#">
+                        <img src="recursos-maquetacion-2-master-css-victor-robles/recursos-maquetacion-2-master-css-victor-robles/img/Opera_256x256.png"
+                            alt="Opera" title="Opera" />
+                    </a>
+
+                    <a href="#">
+                        <img src="recursos-maquetacion-2-master-css-victor-robles/recursos-maquetacion-2-master-css-victor-robles/img/safari.png"
+                            alt="Safari" title="Safari" />
+                    </a>
+
+                    <a href="#">
+                        <img src="recursos-maquetacion-2-master-css-victor-robles/recursos-maquetacion-2-master-css-victor-robles/img/android.png"
+                            alt="Android" title="Android" />
+                    </a>
+
+                    <a href="#">
+                        <img src="recursos-maquetacion-2-master-css-victor-robles/recursos-maquetacion-2-master-css-victor-robles/img/ios.png"
+                            alt="Apple IOS" title="Apple" />
+                    </a>
+                </p>
+                <h5>Autor</h5>
+                <p>&copy;Ermarly Berrios - <a href="https://codepen.io/apapacho">Sitio web</a> </p>
+            </div>
+        </div>
+    </footer>
+    <!--FIN DEL PIE DE PAGINA-->
+
+</body>
+
+</html>
